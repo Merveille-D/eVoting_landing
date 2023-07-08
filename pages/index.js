@@ -176,9 +176,10 @@ const Info = ({
             whileHover={{ scale: 1.1 }}
             viewport={{ once: true }}
             transition={{ duration: 1, type: "spring" }}
+            style={{ width: "100%" }}
           >
             <Flex
-              minWidth={{ base: "50%", md: "400px" }}
+              minWidth={{ base: "100%", md: "400px" }}
               maxW={"400px"}
               height={"400px"}
               justifyContent="center"
@@ -197,7 +198,6 @@ const Info = ({
               />
             </Flex>
           </motion.div>
-          {/* </motion.div> */}
         </Flex>
       </Container>
     </Box>

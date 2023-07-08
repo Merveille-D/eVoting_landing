@@ -24,11 +24,9 @@ const Footer = () => {
       <Box py={5} bgColor={"brandBlue.900"} textColor={"white"}>
         <Container maxW={"container.lg"}>
           <VStack spacing={5} alignItems={{ base: "flex-start", sm: "center" }}>
-            {/* Logo Here */}
-
             <Logo />
             <Text fontSize={"sm"} fontWeight={500}>
-              Inscrivez-vous à notre Newsletter !!
+              Inscrivez-vous sur notre Newsletter !!
             </Text>
             <form autoComplete="off" noValidate>
               <HStack width={{ base: "250px", sm: "450px", md: "500px" }}>
@@ -98,9 +96,6 @@ const Footer = () => {
                   colorScheme="brandBlue"
                   size={"sm"}
                 />
-                {/* Use the `boxSize` prop to change the icon size */}
-
-                {/*  */}
                 <IconButton
                   icon={<MdFacebook />}
                   variant={"solid"}
