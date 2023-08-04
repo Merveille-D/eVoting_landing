@@ -1,8 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
+  // reactStrictMode: unoptimized,
   images: {
-    domains: ["images.unsplash.com"],
+    loader: "imgix",
+    path: "/",
   },
 };
 
