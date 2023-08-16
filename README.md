@@ -1,2 +1,3 @@
 # EVOTING-FRONT
-Front end de la plateforme eVoting.
+
+Front end (Site de présentation) de la plateforme eVoting.
