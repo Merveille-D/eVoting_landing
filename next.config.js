@@ -1,10 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   // reactStrictMode: unoptimized,
-  images: {
-    loader: "imgix",
-    path: "/",
-  },
+  reactStrictMode: false,
+  // images: {
+  //   unoptimized: true,
+  // },
 };
 
 module.exports = nextConfig;
