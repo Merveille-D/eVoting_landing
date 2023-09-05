@@ -1,9 +1,7 @@
 import {
   Container,
   HStack,
-  Heading,
   IconButton,
-  Image,
   Text,
   VStack,
   useBreakpointValue,

@@ -6,7 +6,6 @@ import {
   Flex,
   HStack,
   IconButton,
-  Image,
   Input,
   Link,
   Text,
