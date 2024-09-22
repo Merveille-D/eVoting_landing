@@ -6,13 +6,13 @@ export const NAV_ITEMS = [
   },
   {
     label: "Espace administrateur",
-    href: "https://manager.evoting.digital/",
+    href: "https://admin-evoting.digit.global/",
     isExternal: true,
   },
 
   {
     label: "Passez au vote ",
-    href: "https://vote.evoting.digital/",
+    href: "https://go-evoting.digit.global/",
     isExternal: true,
   },
   {
@@ -22,6 +22,6 @@ export const NAV_ITEMS = [
 ];
 
 export const links = {
-  admin: "https://manager.evoting.digital/",
-  user: "https://vote.evoting.digital/",
+  admin: "https://admin-evoting.digit.global/",
+  user: "https://go-evoting.digit.global/",
 };
